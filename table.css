@@ -1,5 +1,6 @@
 html {
     font-family: system-ui;
+    background-color: rgba(161, 241, 227, 0.77);
   }
   
   table {
@@ -51,7 +52,7 @@ html {
   tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
   }
-  
+
   caption {
     padding: 10px;
   }
