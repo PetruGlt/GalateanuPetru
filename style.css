@@ -1,34 +1,64 @@
 body {
+    /* background-color: #106EBE; */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #106EBE;
+    /* background-image: url(4k-programming-grey-cloud-zn53z7q54ioi45qk.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     
-    header {
+}
 
-        
-        font-family: 'Cinzel Decorative', cursive;
-        color: #2a2a2a;
-        background-color: rgb(236, 242, 240);
+header {
+
+    
+    font-family: 'Cinzel Decorative', cursive;
+    /* color: #0FFCBE; */
+    color:blanchedalmond;
+    
+    text-align: justify;
+    text-decoration: dotted;
+    
+    ul {
         text-align: center;
-        
-        ul {
-            text-align: center;
-            list-style-type: none;
-        }
-
-        a {
-            color: red;
-            text-decoration:  none;
-        }
-
-        a::hover {
-            color: blueviolet;
-        }
-    
+        list-style-type: none;
     }
 
-        
-    img {
-        display: block;
-        padding-top: 20.15px;
+    a {
+        color: #323232;
+        font-size: 24px;
+        text-decoration:  none;
+        padding: 5px;
     }
+
+  
+    section {
+        background-color: #ffffff23;
+    }
+
+}
+
+h2, h3, h4 {
+    color:azure;
+}
+
+h1 {
+    color: #0FFCBE
+}
+        
+body {
+ 
+    a {
+        text-decoration: none;
+        color: aquamarine;
+    }
+}
+
+img {
+    display: block;
+    padding-top: 20.15px;
 }
 
 

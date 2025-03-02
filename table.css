@@ -1,6 +1,6 @@
 html {
     font-family: system-ui;
-    background-color: rgba(161, 241, 227, 0.77);
+
   }
   
   table {
@@ -8,6 +8,13 @@ html {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+  }
+  
+  body {
+    table {
+      padding: 3%;
+      background-color: wheat ;
+    }
   }
   
   td, th {
@@ -48,4 +55,10 @@ html {
 
   caption {
     padding: 10px;
+  }
+
+  th {
+    a {
+      color: black;
+    }
   }
